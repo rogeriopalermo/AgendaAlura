@@ -75,6 +75,14 @@ public class AlunosAdapter extends BaseAdapter {
             viewHolder.campoFoto.setTag(caminhoFoto);
         }
 
+        if(viewHolder.campoEndereco != null) {
+            viewHolder.campoEndereco.setText(aluno.getEndereco());
+        }
+
+        if(viewHolder.campoSite != null) {
+            viewHolder.campoSite.setText(aluno.getSite());
+        }
+
         return tView;
     }
 }

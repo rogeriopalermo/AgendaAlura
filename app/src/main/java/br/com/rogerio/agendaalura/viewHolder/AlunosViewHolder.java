@@ -16,10 +16,14 @@ public class AlunosViewHolder {
     public final TextView campoNome;
     public final TextView campoTelefone;
     public final ImageView campoFoto;
+    public final TextView campoEndereco;
+    public final TextView campoSite;
 
     public AlunosViewHolder(View view) {
         this.campoNome = (TextView) view.findViewById(R.id.item_nome);
         this.campoTelefone = (TextView) view.findViewById(R.id.item_telefone);
         this.campoFoto = (ImageView) view.findViewById(R.id.item_foto);
+        this.campoEndereco = (TextView) view.findViewById(R.id.item_endereco);
+        this.campoSite = (TextView) view.findViewById(R.id.item_site);
     }
 }

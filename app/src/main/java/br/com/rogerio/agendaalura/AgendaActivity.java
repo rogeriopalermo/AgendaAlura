@@ -86,6 +86,9 @@ public class AgendaActivity extends AppCompatActivity {
         if(item.getItemId() == R.id.menu_enviar_notas) {
             new EnviarAlunosTask(this).execute();
 
+        } else if (item.getItemId() == R.id.menu_baixar_provas) {
+            Intent vaiParaProvas = new Intent(this, ProvasActivity.class);
+            startActivity(vaiParaProvas);
         }
         return super.onOptionsItemSelected(item);
     }

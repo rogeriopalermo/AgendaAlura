@@ -51,23 +51,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/nome_aluno"
-            android:hint="Nome"/>
+            android:hint="@string/campo_nome"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/endereco_aluno"
-            android:hint="Endereço"/>
+            android:hint="@string/campo_endereco"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/telefone_aluno"
-            android:hint="Telefone"
+            android:hint="@string/campo_telefone"
             />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/site_aluno"
-            android:hint="Site"/>
+            android:hint="@string/campo_site"/>
         <RatingBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
