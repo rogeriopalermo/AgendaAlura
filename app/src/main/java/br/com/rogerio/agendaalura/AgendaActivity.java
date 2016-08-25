@@ -89,6 +89,9 @@ public class AgendaActivity extends AppCompatActivity {
         } else if (item.getItemId() == R.id.menu_baixar_provas) {
             Intent vaiParaProvas = new Intent(this, ProvasActivity.class);
             startActivity(vaiParaProvas);
+        } else if (item.getItemId() == R.id.menu_mapa) {
+            Intent vaiParaMapa = new Intent(this, MapaActivity.class);
+            startActivity(vaiParaMapa);
         }
         return super.onOptionsItemSelected(item);
     }
